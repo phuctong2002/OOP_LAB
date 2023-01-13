@@ -1,10 +1,11 @@
 package test;
 
-import crawl.DynastyCrawl;
+import crawl.HistoricEventCrawl;
 
 public class MainTest {
      public static void main(String[] args){
-          DynastyCrawl obj = new DynastyCrawl( "url/DynastyURL.txt");
+
+          HistoricEventCrawl obj = new HistoricEventCrawl( "url/HistoricEvent.txt");
           obj.getData();
      }
 }

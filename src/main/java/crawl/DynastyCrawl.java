@@ -28,17 +28,18 @@ public class DynastyCrawl {
                 obj.put("id", "DYNASTY" + qty);
                 obj.put( "name", getName( document));
                 obj.put("start", getStartedTime());
+                System.out.println(obj);
                 arr.add(obj);
                 ++qty;
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         }
-        JsonHandler.writeJsonFile(arr,fileData);
+//        JsonHandler.writeJsonFile(arr,fileData);
     }
 
     private String getName( Document document){
-        Elements name = document.getElementsByClass("subheading-category");
+        Elements name = document.getElementsByClass("item-page");
         return name.get(0).text();
     }
 
