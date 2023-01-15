@@ -16,7 +16,12 @@ import java.util.List;
 public class HistoricEventCrawl {
     private final String fileData = "data/HistoricEvent.json";
     private String source;
-    private int qty = 0;
+    private static int qty = 0;
+    private static String time;
+    private static String name;
+    private static List<String> relatedInformations = new ArrayList<>();
+    private static String summary;
+
 
     public HistoricEventCrawl(String source) {
         this.source = source;
@@ -31,15 +36,16 @@ public class HistoricEventCrawl {
                 Elements elements = document.select(".mw-parser-output > p");
                 for (int j = 1; j < elements.size(); ++j) {
                     Element element = elements.get(j);
-
-                    if(getName(element).equals(getTime(element))){
+                    time = getTime(element);
+                    name = getName(element);
+                    if (name.equals(time)) {
                         Element dl = element.nextElementSibling();
-//                        System.out.println(dl.text());
                         Elements dd = dl.select("dd");
-//                        System.out.println(dd.text());
-                        arr.add(getHistoricEvent(dd, getTime(element)));
-                    }else{
-                        arr.add(getHistoricEvent(element));
+                        arr.add(getHistoricEvent(dd));
+                    } else {
+                        relatedInformations = getRelatedInformation(element);
+                        summary = getSummary(element);
+                        arr.add(getHistoricEvent());
                     }
                     ++qty;
                 }
@@ -51,75 +57,65 @@ public class HistoricEventCrawl {
     }
 
     private List<String> getRelatedInformation(Element element) {
-        List<String> relatedCharacters = new ArrayList<>();
+        List<String> relatedInformation = new ArrayList<>();
         Elements a = element.select("a");
         for (Element i : a) {
-            relatedCharacters.add(i.text());
+            if (!(i.text().equals(name)))
+                relatedInformation.add(i.text());
         }
-        return relatedCharacters;
+        return relatedInformation;
     }
 
-    private String getTime(Element element, String time) {
-        return element.select("b").text() + " năm "+ time;
-    }
 
     private String getTime(Element element) {
         return element.select("b").text();
     }
 
     private String getName(Element element) {
-        return element.text().replace(element.select("b").text() + " ","");
+        return element.text().replace(time + " ", "");
     }
 
     private  String getSummary(Element element)  {
-        String summary = null;
+        StringBuilder summary = new StringBuilder();
         try {
             Elements a = element.select("a");
-            if(a.size() > 1) return  null;
+            if (a.size() > 1) return null;
             String url = a.attr("href");
             Document document = Jsoup.connect("https://vi.wikipedia.org" + url).get();
-            Element header = document.select(".mw-parser-output > p").first();
-            summary = header.text();
+            Element p = document.select(".mw-parser-output > p").first();
+            while (p.tagName().equals("p")) {
+                summary.append(p.text());
+                p = p.nextElementSibling();
+            }
+
         }catch (Exception e){
 
         }
-        return  summary;
+        return summary.toString();
     }
 
-    public JSONObject getHistoricEvent(Element element) {
+    public JSONObject getHistoricEvent() {
         JSONObject obj = new JSONObject();
         obj.put("id", "Historic Event " + qty);
-        obj.put( "History Event", getName(element));
-        obj.put("Time","Năm " + getTime(element));
-        obj.put("Related Information", getRelatedInformation(element));
-        obj.put("Summary", getSummary(element));
+        obj.put("History Event", name);
+        obj.put("Time", time);
+        obj.put("Related Information", relatedInformations);
+        obj.put("Summary", summary);
         System.out.println(obj);
-        return  obj;
+        return obj;
     }
 
-    public JSONObject getHistoricEvent(Element element, String time) {
-        JSONObject obj = new JSONObject();
-        obj.put("id", "Historic Event " + qty);
-        obj.put( "History Event", getName(element) );
-        obj.put("Time", getTime(element)+ " năm " + time);
-        obj.put("Related Information", getRelatedInformation(element));
-        obj.put("Summary", getSummary(element));
-        System.out.println(obj);
-        return  obj;
-    }
 
-    public JSONArray getHistoricEvent(Elements elements, String time) {
+    public JSONArray getHistoricEvent(Elements elements) {
         JSONArray jsonArray = new JSONArray();
-        for(Element element : elements){
-            jsonArray.add(getHistoricEvent(element, time));
+        for (Element element : elements) {
+            time = getTime(element) + " năm " + time;
+            name = getName(element);
+            relatedInformations = getRelatedInformation(element);
+            summary = getSummary(element);
+            jsonArray.add(getHistoricEvent());
         }
-        return  jsonArray;
+        return jsonArray;
     }
-
-
-
-
-
-
 
 }
