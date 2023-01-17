@@ -26,7 +26,7 @@ public class HistoricalFigureCrawler {
 
     public void getData() {
 
-        String url = "https://nguoikesu.com/nhan-vat?start=1405";
+        String url = "https://nguoikesu.com/nhan-vat";
         JSONArray arr = new JSONArray();
         do {
             try {

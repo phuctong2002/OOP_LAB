@@ -7,10 +7,6 @@ import util.JsonHandler;
 
 public class MainTest {
      public static void main(String[] args){
-//          JSONArray arr = new JSONArray();
-//          arr = JsonHandler.readJsonFile("data/DynastyData.json");
-//          System.out.print( arr);
-
           HistoricalFigureCrawler obj = new HistoricalFigureCrawler();
           obj.getData();
      }
