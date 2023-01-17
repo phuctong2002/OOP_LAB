@@ -7,12 +7,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import util.JsonHandler;
-import util.ListURL;
 
 
-import javax.print.Doc;
 import java.io.IOException;
-import java.util.List;
 import java.util.regex.Pattern;
 
 public class HistoricalFigureCrawler {
@@ -24,9 +21,12 @@ public class HistoricalFigureCrawler {
         this.source = source;
     }
 
+    public HistoricalFigureCrawler() {
+    }
+
     public void getData() {
 
-        String url = "https://nguoikesu.com/nhan-vat";
+        String url = "https://nguoikesu.com/nhan-vat?start=1405";
         JSONArray arr = new JSONArray();
         do {
             try {
@@ -40,9 +40,21 @@ public class HistoricalFigureCrawler {
                     System.out.println(list1.get(i).select("h2>a").text());
                     obj.put("name", list1.get(i).select("h2>a").text());
                     Document detail = Jsoup.connect("https://nguoikesu.com" + list1.get(i).select("h2>a").attr("href")).get();
-                    obj.put("birth", getStartedTime(detail));
-                    obj.put("death", getEndedTime(detail));
-                    obj.put("brief", getBrief( detail));
+                    try {
+                        Element infoBox = detail.select(".infobox").get(0);
+                        Elements info = infoBox.select("tbody>tr:has(>td):has(>th)");
+//                        System.out.println(info);
+                        for (int j = 0; j < info.size(); ++j) {
+                            String key = info.get(j).select(">th").first().text();
+                            String value = info.get(j).select(">td").first().text();
+                            obj.put(key, value);
+                        }
+                    } catch (Exception e) {
+                        obj.put("birth", getStartedTime(detail));
+                        obj.put("death", getEndedTime(detail));
+                        obj.put("brief", getBrief(detail));
+                    }
+
                     arr.add(obj);
                 }
                 Elements links = list2.get(list2.size() - 2).select("a");
@@ -83,7 +95,7 @@ public class HistoricalFigureCrawler {
             Element info = detail.select(".com-content-article__body").get(0).select(">p").first();
             String tmp = info.text();
             int index1 = tmp.indexOf('(');
-            int index2 = tmp.indexOf( '-');
+            int index2 = tmp.indexOf('-');
             int index22 = tmp.indexOf(8211);
             int index3 = tmp.indexOf(')');
             if (index1 == -1) {
@@ -91,13 +103,13 @@ public class HistoricalFigureCrawler {
             } else if (index3 == -1) {
                 result = "";
             } else if (index2 == -1) {
-                if( index22 == -1)
+                if (index22 == -1)
                     result = "";
-                else if( index22 < index3)
-                    result = tmp.substring( index22 + 1, index3);
+                else if (index22 < index3)
+                    result = tmp.substring(index22 + 1, index3);
                 else result = "";
             } else {
-                if( index2 < index3)
+                if (index2 < index3)
                     result = tmp.substring(index2 + 1, index3).trim();
                 else result = "";
             }
@@ -106,7 +118,6 @@ public class HistoricalFigureCrawler {
                     result = "";
             }
         }
-//        System.out.println(result);
         return result;
 
     }
@@ -133,14 +144,14 @@ public class HistoricalFigureCrawler {
             String tmp = info.text();
             int index1 = tmp.indexOf('(');
             int index22 = tmp.indexOf(8211);
-            int index2 = tmp.indexOf( '-');
+            int index2 = tmp.indexOf('-');
             int index3 = tmp.indexOf(')');
             if (index1 == -1) {
                 result = "";
             } else if (index3 == -1) {
                 result = "";
             } else if (index2 == -1) {
-                if( index22 == -1)
+                if (index22 == -1)
                     result = tmp.substring(index1 + 1, index3).trim();
                 else
                     result = tmp.substring(index1 + 1, index22).trim();
@@ -152,9 +163,6 @@ public class HistoricalFigureCrawler {
                     result = "";
             }
         }
-//        System.out.println(result);
         return result;
     }
-
-
 }

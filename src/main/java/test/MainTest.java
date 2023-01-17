@@ -2,14 +2,16 @@ package test;
 
 import crawl.DynastyCrawler;
 import crawl.HistoricalFigureCrawler;
+import org.json.simple.JSONArray;
+import util.JsonHandler;
 
 public class MainTest {
      public static void main(String[] args){
-//          DynastyCrawler obj = new DynastyCrawler("url/DynastyURL.txt");
-//          obj.getData();
+//          JSONArray arr = new JSONArray();
+//          arr = JsonHandler.readJsonFile("data/DynastyData.json");
+//          System.out.print( arr);
 
-
-          HistoricalFigureCrawler obj = new HistoricalFigureCrawler("url/HistoricalFigure.txt");
+          HistoricalFigureCrawler obj = new HistoricalFigureCrawler();
           obj.getData();
      }
 
