@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ListURL {
+    // get list of url in fileName
     public static List<String> getURL( String fileName){
         List<String> listUrl = new ArrayList<String>();
         try{
