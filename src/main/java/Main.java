@@ -1,10 +1,11 @@
+import javafx.util.Pair;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.Objects;
+import java.util.*;
 
 public class Main {
     //    static String summary;
@@ -13,18 +14,45 @@ public class Main {
     }
     public static void main(String[] args) throws IOException {
         Document document = Jsoup.connect("https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam#C%C3%A1c_l%E1%BB%85_h%E1%BB%99i_l%C3%A0_di_s%E1%BA%A3n_v%C4%83n_h%C3%B3a_qu%E1%BB%91c_gia").get();
-        Elements table = document.getElementsByClass("prettytable wikitable");
-        Elements tds = Objects.requireNonNull(table.first()).getElementsByTag("tr");
+        Elements table = document.getElementsByClass("mw-parser-output");
+        Elements tds = Objects.requireNonNull(table.first()).getElementsByTag("ul");
+        Elements d = tds.get(10).select("li");
 //        for(int j = 1; j<tds.size(); j++)
 //        {
-//            System.out.print("j = "+j+" ");
-//            System.out.println(tds.get(j).text());
-            Elements d = tds.get(1).select("td");
-            for (int i= 0; i< d.size(); i++){
-                System.out.print("i = "+i+" ");
-                System.out.println(d.get(i).text());
-            }
+//
+//        System.out.println("j ="+j+" "+tds.get(j).text());
 //        }
+//        System.out.println(d.get(1).select("li").text());
+        //tach dia diem, le hoi
+        List<String> list = new ArrayList<>();
+        String a = d.get(1).select("li").text();
+        Collections.addAll(list, a.split(": ", 0));
+        System.out.println(list.get(1));
+        //tach le hoi
+        List<String> listFes = new ArrayList<>();
+        Collections.addAll(listFes, list.get(1).split(", ", 0));
+        System.out.println(listFes);
+       String str = listFes.get(0).replaceAll("[^0-9/-]", " ");
+       // tach ngay
+        List<String> m = new ArrayList<>();
+        Collections.addAll(m, str.split(" ", 0));
+        System.out.println(m.get(m.size()-1));
+        String input = "Hi, X How-how; (are:)any 123 am lich den 12 am lich you?";
+        String tmp = input.replaceAll("\\(.*?\\)","");
+        System.out.println(tmp);
+        String[] parts = tmp.split("[,\\;]");
+        System.out.println(Arrays.toString(parts));
+        String [] parts2 = parts[2].split( "(?<=\\D)(?=\\d)");
+        System.out.println(Arrays.toString(parts2));
+//        Map<String, String> map = new HashMap<>();
+//        map.put("A","B");
+//        map.put("C", "D");
+//        System.out.println(map.get("A"));
+//        System.out.println("A"+);
+//        Pair<String , String>pair = new Pair<>(null, null);
+//        System.out.println(d.get(0).text());
+//        String k = Arrays.toString(str.split(" ", 0));
+//       System.out.println(k);
 //        String time = getTime(tds.get(49));
 //        System.out.println(tds.get(1).select("td"));
 //        Elements e = tds.get(4).select("a");

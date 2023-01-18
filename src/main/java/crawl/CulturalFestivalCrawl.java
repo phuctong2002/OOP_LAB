@@ -1,5 +1,6 @@
 package crawl;
 
+import javafx.util.Pair;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
@@ -13,16 +14,9 @@ import java.io.IOException;
 import java.util.*;
 
 public class CulturalFestivalCrawl {
-    private final String fileData = "data/CulturalFesData.json";
     private String source;
     private static int qty = 0;
-    private static String time;
-    private static String name;
-    private static String location;
-    private static String firstTime;
-    private static List<String> relatedCharacter = new ArrayList<>();
-    private static int relatedHistoricalSites;
-    private static String summary;
+//    private static int relatedHistoricalSites;
 
 
     public CulturalFestivalCrawl(String source) {
@@ -40,19 +34,12 @@ public class CulturalFestivalCrawl {
                 Elements elements = Objects.requireNonNull(table.first()).getElementsByTag("tr");
                 for (int j = 1; j < elements.size(); j++) {
                     Elements d = elements.get(j).select("td");
-//                        System.out.println("j = " + j);
-                    time = getTime(d.get(0));
-//                        System.out.println("time " + time);
-                    location = getLocation(d.get(1));
-//                        System.out.println("Location " + location);
-                    name = getName(d.get(2));
-//                        System.out.println("name " + name);
-                    summary = getSummary(d.get(2));
-//                        System.out.println("Summary " + summary);
-                    firstTime = getFirstTime(d.get(3));
-//                        System.out.println("First time " + firstTime);
-                    relatedCharacter = getRelatedCharacter(d.get(4));
-//                        System.out.println("Related character " + relatedCharacter);
+                    String time = getTime(d.get(0));
+                    String location = getLocation(d.get(1));
+                    String name = getName(d.get(2));
+                    String summary = getSummary(d.get(2));
+                    String firstTime = getFirstTime(d.get(3));
+                    List<String> relatedCharacter = getRelatedCharacter(d.get(4));
 //                    relatedHistoricalSites
                     ++qty;
                     JSONObject obj = new JSONObject();
@@ -64,14 +51,52 @@ public class CulturalFestivalCrawl {
                     obj.put("related Character", relatedCharacter);
                     obj.put("summary", summary);
                     arr.add(obj);
-//                        System.out.println(obj);
+
+                }
+                //
+                Elements table2 = document.getElementsByClass("mw-parser-output");
+                Elements tds = Objects.requireNonNull(table2.first()).getElementsByTag("ul");
+                Elements td = tds.get(10).select("li");
+                for (Element element : td) {
+                    JSONObject obj = new JSONObject();
+                    ++qty;
+                    //tach dia diem, le hoi
+                    List<String> list = new ArrayList<>();
+                    String a = element.select("li").text();
+                    Collections.addAll(list, a.split(": ", 0));
+                    String location = list.get(0);
+                    obj.put("Location", location);
+                    // tach le hoi
+                    List<String> listFes = new ArrayList<>();
+                    String tmp = list.get(1).replaceAll("\\(.*?\\)","");
+                    Collections.addAll(listFes, tmp.split("[,\\;]", 0));
+                    // tach ngay
+                    int cnt = 1;
+                    for (int k = 0; k < listFes.size(); k++) {
+                        String str = listFes.get(k).replaceAll("[^0-9/-]", " ");
+                        List<String> m = new ArrayList<>();
+                        Collections.addAll(m, str.split(" ", 0));
+                        obj.put("Name" + cnt, listFes.get(k));
+                        if (m.size() != 0) {
+                            obj.put("Time" + cnt, m.get(m.size() - 1));
+                        } else {
+                            obj.put("Time" + cnt, null);
+                        }
+                        obj.put("id"+cnt, "Cultural Festival" + qty);
+                        obj.put("first time"+cnt, null);
+                        obj.put("related Character"+cnt, null);
+                        obj.put("summary"+cnt, null);
+
+                        cnt++;
+                    }
+                    arr.add(obj);
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+
         }
-        System.out.println(arr.size());
-        System.out.println(qty);
+        String fileData = "data/CulturalFesData.json";
         JsonHandler.writeJsonFile(arr, fileData);
     }
 
