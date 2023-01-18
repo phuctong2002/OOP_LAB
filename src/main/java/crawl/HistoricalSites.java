@@ -18,7 +18,8 @@ public class HistoricalSites {
 	private String tongQuan;
 	private String diaDiem;
 	private String nhanVat;
-	private String[] leHoi = new String[1000];
+	
+	JSONArray leHoi = new JSONArray();
 
 	public void getData() throws IOException {
 		String url = "https://nguoikesu.com/di-tich-lich-su";
@@ -58,11 +59,11 @@ public class HistoricalSites {
 			Elements lehoi = doc1.select("li:contains(Lễ hội):not(:contains(^))");
 			int num = 0;
 			for(Element e : lehoi) {
-				leHoi[num] = e.text();
+				leHoi.add(e.text());
 				num++;
 			}
-			if(leHoi[0] == null) {
-				leHoi[0] = "Khong co thong tin!";
+			if(leHoi.isEmpty()) {
+				leHoi.add("Khong co thong tin!");
 			}
 			
 			int k = 0;
@@ -73,12 +74,9 @@ public class HistoricalSites {
 			obj.put("Name", name);
 			obj.put("Tong Quan", tongQuan);
 			obj.put("Nhan Vat", nhanVat);
-			while(leHoi[k] != null) {
-				obj.put("Le Hoi " + k, leHoi[k]);
-				leHoi[k] = null;
-				k++;
-			}
+			obj.put("Le Hoi", leHoi);
 			arr.add(obj);
+			leHoi = new JSONArray();
 		}
 		JsonHandler.writeJsonFile(arr, fileData);
 	}
@@ -99,7 +97,7 @@ public class HistoricalSites {
 		return nhanVat;
 	}
 
-	public String[] getLeHoi() {
+	public JSONArray getLeHoi() {
 		return leHoi;
 	}
 
