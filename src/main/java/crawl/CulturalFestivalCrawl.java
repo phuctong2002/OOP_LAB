@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.*;
 
 public class CulturalFestivalCrawl {
-    private final String fileData = "data/CulturalFestival.json";
+    private final String fileData = "data/CulturalFesData.json";
     private String source;
     private static int qty = 0;
     private static String time;
@@ -34,20 +34,28 @@ public class CulturalFestivalCrawl {
         JSONArray arr = new JSONArray();
         assert url != null;
         for (String s : url) {
-            JSONObject obj = new JSONObject();
             try {
                 Document document = Jsoup.connect(s).get();
                 Elements table = document.getElementsByClass("prettytable wikitable");
-                Elements elements = Objects.requireNonNull(table.first()).getElementsByTag("td");
-                for (int j = 2; j < elements.size(); j += 6) {
-                    time = getTime(elements.get(j));
-                    location = getLocation(elements.get(j + 1));
-                    name = getName(elements.get(j + 2));
-                    summary = getSummary(elements.get(j + 2));
-                    firstTime = getFirstTime(elements.get(j + 3));
-                    relatedCharacter = getRelatedCharacter(elements.get(j + 4));
+                Elements elements = Objects.requireNonNull(table.first()).getElementsByTag("tr");
+                for (int j = 1; j < elements.size(); j++) {
+                    Elements d = elements.get(j).select("td");
+//                        System.out.println("j = " + j);
+                    time = getTime(d.get(0));
+//                        System.out.println("time " + time);
+                    location = getLocation(d.get(1));
+//                        System.out.println("Location " + location);
+                    name = getName(d.get(2));
+//                        System.out.println("name " + name);
+                    summary = getSummary(d.get(2));
+//                        System.out.println("Summary " + summary);
+                    firstTime = getFirstTime(d.get(3));
+//                        System.out.println("First time " + firstTime);
+                    relatedCharacter = getRelatedCharacter(d.get(4));
+//                        System.out.println("Related character " + relatedCharacter);
 //                    relatedHistoricalSites
                     ++qty;
+                    JSONObject obj = new JSONObject();
                     obj.put("id", "Cultural Festival" + qty);
                     obj.put("name", name);
                     obj.put("time", time);
@@ -56,11 +64,14 @@ public class CulturalFestivalCrawl {
                     obj.put("related Character", relatedCharacter);
                     obj.put("summary", summary);
                     arr.add(obj);
+//                        System.out.println(obj);
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         }
+        System.out.println(arr.size());
+        System.out.println(qty);
         JsonHandler.writeJsonFile(arr, fileData);
     }
 
@@ -72,22 +83,23 @@ public class CulturalFestivalCrawl {
     }
 
 
-
     private String getTime(Element element) {
-        return element.select("td").text();
+        return element.text();
     }
+
     private String getFirstTime(Element element) {
-        return element.select("td").text();
+        return element.text();
     }
+
     public static String getLocation(Element element) {
-        return element.select("td").text();
+        return element.text();
     }
 
     private String getName(Element element) {
-        return element.select("td").text();
+        return element.text();
     }
 
-    private  String getSummary(Element element)  {
+    private String getSummary(Element element) {
         StringBuilder summary = new StringBuilder();
         try {
             Elements a = element.select("a");
@@ -102,7 +114,7 @@ public class CulturalFestivalCrawl {
                 p = p.nextElementSibling();
             }
 
-        }catch (Exception ignored){
+        } catch (Exception ignored) {
 
         }
         return summary.toString();

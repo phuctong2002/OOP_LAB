@@ -1,0 +1,595 @@
+[
+  {
+    "summary": "Gò Đống Đa là một gò đất và là một di tích nằm bên phố Tây Sơn, phường Quang Trung, quận Đống Đa, Thành phố Hà Nội. Tại đây năm 1789 quân Tây Sơn đã đại phá và đánh thắng quân nhà Thanh Trung Quốc trong Trận Ngọc Hồi - Đống Đa.",
+    "related Character": [
+      "Nguyễn Huệ"
+    ],
+    "name": "Lễ hội Đống Đa",
+    "location": "Hà Nội, quận Đống Đa",
+    "id": "Cultural Festival1",
+    "time": "5\/1",
+    "first time": ""
+  },
+  {
+    "summary": "",
+    "related Character": [
+      ""
+    ],
+    "name": "Hội vật Liễu Đôi",
+    "location": "Hà Nam, huyện Thanh Liêm",
+    "id": "Cultural Festival2",
+    "time": "5\/1",
+    "first time": ""
+  },
+  {
+    "summary": null,
+    "related Character": [
+      "Thánh Gióng"
+    ],
+    "name": "hội Gióng Sóc Sơn",
+    "location": "Hà Nội, Sóc Sơn",
+    "id": "Cultural Festival3",
+    "time": "6\/1",
+    "first time": "Nhà Tiền Lê"
+  },
+  {
+    "summary": "Thành Cổ Loa là kinh đô của nhà nước Âu Lạc dưới thời An Dương Vương vào khoảng thế kỷ thứ 3 trước Công nguyên và của nhà nước phong kiến dưới thời Ngô Quyền thế kỷ 10 tại vùng đất xã Cổ Loa, huyện Đông Anh, Hà Nội.",
+    "related Character": [
+      "An Dương Vương"
+    ],
+    "name": "Lễ hội Cổ Loa",
+    "location": "Hà Nội, Đông Anh",
+    "id": "Cultural Festival4",
+    "time": "6\/1",
+    "first time": ""
+  },
+  {
+    "summary": "Chùa Bái Đính là một quần thể chùa lớn với nhiều kỷ lục châu Á và Việt Nam được xác lập như chùa có tượng Phật bằng đồng dát vàng lớn nhất châu Á, chùa có hành lang La Hán dài nhất châu Á,[2][3] có tượng Di lặc bằng đồng lớn nhất Đông Nam Á... Đây là ngôi chùa lớn nhất và sở hữu nhiều kỷ lục nhất ở Việt Nam. Các hạng mục xây dựng, mở rộng khu chùa mới được các đại biểu tham dự đại lễ Phật đản thế giới 2008 làm lễ khánh thành giai đoạn 1, năm 2010 chùa Bái Đính là nơi tổ chức Đại lễ cung nghinh xá lợi Phật đầu tiên từ Ấn Độ về Việt Nam. Đại lễ Phật đản Liên hiệp quốc - Vesak 2014 do Việt Nam đăng cai đã diễn ra tại chùa Bái Đính trong tháng 3 năm 2014.[4] Chùa nằm ở cửa ngõ phía tây khu di tích cố đô Hoa Lư, bên quốc lộ 38B, thuộc xã Gia Sinh - Gia Viễn - Ninh Bình, cách thành phố Ninh Bình 15 km, cách Hà Nội 95 km. Chùa Bái Đính nằm ở phía bắc của quần thể di sản thế giới Tràng An.",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ hội chùa Bái Đính",
+    "location": "Ninh Bình, Gia Viễn",
+    "id": "Cultural Festival5",
+    "time": "6\/1",
+    "first time": "Nhà Lý"
+  },
+  {
+    "summary": "Chợ Viềng (lối gọi theo tiếng cổ của Chợ Xuân) là phiên chợ đầu năm họp vào đêm mùng 7 ngày mùng 8 ở Nam Định. Theo gia phả họ Trần thì chợ Viềng có từ thời cổ xưa và hình thành theo tục lệ làng xã của người dân địa phương. Từ \" Viềng\" là từ Hán Việt có nghĩa là: thăm hỏi, viếng thăm, trò chuyện. Nam Định có 4 chợ đó là:",
+    "related Character": [
+      ""
+    ],
+    "name": "Chợ Viềng",
+    "location": "Nam Định, Vụ Bản",
+    "id": "Cultural Festival6",
+    "time": "7\/1",
+    "first time": "Nhà Trần"
+  },
+  {
+    "summary": "Lễ hội đầm Ô Loan được tổ chức vào mùng 7 tháng Giêng (Âm lịch) tại thôn Phú Tân, xã An Cư, huyện Tuy An. Lễ hội này có tư cách là lễ hội cầu ngư của người dân quanh đầm Ô Loan.",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ hội đầm Ô Loan",
+    "location": "Phú Yên, Ô Loan",
+    "id": "Cultural Festival7",
+    "time": "7\/1",
+    "first time": ""
+  },
+  {
+    "summary": "",
+    "related Character": [
+      "Đức Chí Tôn"
+    ],
+    "name": "Đại lễ Đức Chí Tôn",
+    "location": "Tây Ninh, Đạo Cao Đài",
+    "id": "Cultural Festival8",
+    "time": "9\/1",
+    "first time": ""
+  },
+  {
+    "summary": "",
+    "related Character": [
+      "Trần Nhân Tông"
+    ],
+    "name": "Hội xuân Yên Tử",
+    "location": "Quảng Ninh, núi Yên Tử",
+    "id": "Cultural Festival9",
+    "time": "10\/1",
+    "first time": "thế kỷ 14"
+  },
+  {
+    "summary": "Hội Phết Hiền Quan là một lễ hội của xã Hiền Quan, huyện Tam Nông, tỉnh Phú Thọ, được tổ chức từ ngày 12 đến 13 tháng Giêng âm lịch hàng năm, trong đó ngày chính hội là ngày 13. Lễ hội được tổ chức nhằm tôn vinh tinh thần thượng võ và tưởng nhớ hai vị thành hoàng là Thiều Hoa công chúa, một nữ tướng dưới thời Hai Bà Trưng có công đánh giặc[1] và Mộc Trang đại vương thời nhà Đinh có công dẹp loạn 12 sứ quân.[2]",
+    "related Character": [
+      "Thiều Hoa công chúa",
+      "Mộc trang đại vương"
+    ],
+    "name": "Hội phết Hiền Quan",
+    "location": "Phú Thọ, huyện Tam Nông",
+    "id": "Cultural Festival10",
+    "time": "13\/1",
+    "first time": "gần đây"
+  },
+  {
+    "summary": "Hội Lim là một lễ hội lớn của tỉnh Bắc Ninh, chính hội được tổ chức vào ngày 13 tháng giêng (âm lịch) hàng năm, trên địa bàn huyện Tiên Du tỉnh Bắc Ninh. Hội Lim được coi là nét kết tinh độc đáo của vùng văn hoá Kinh Bắc .",
+    "related Character": [
+      "Nguyễn Đình Diễn"
+    ],
+    "name": "Hội Lim",
+    "location": "Bắc Ninh, huyện Tiên Du",
+    "id": "Cultural Festival11",
+    "time": "13\/1",
+    "first time": "Nhà Lê sơ"
+  },
+  {
+    "summary": "Lễ hội chùa Hương hay Trẩy hội chùa Hương là một lễ hội của Việt Nam, nằm ở Mỹ Đức, Hà Nội. Trong khu thắng cảnh Hương Sơn, được xem hành trình về một miền đất Phật - nơi Quan Thế Âm Bồ Tát ứng hiện tu hành. Đây là một lễ hội lớn về số lượng các phật tử tham gia hành hương.",
+    "related Character": [
+      "Quan Thế Âm Bồ Tát"
+    ],
+    "name": "Lễ hội chùa Hương",
+    "location": "Hà Nội, huyện Mỹ Đức",
+    "id": "Cultural Festival12",
+    "time": "6\/1",
+    "first time": ""
+  },
+  {
+    "summary": "Chùa Côn Sơn (tên chữ là Tư Phúc tự hay Côn Sơn Tự), còn gọi là chùa Hun, là một ngôi chùa nằm bên ngọn núi Côn Sơn (hay còn gọi là núi Hun) ở phường Cộng Hoà, thành phố Chí Linh, tỉnh Hải Dương, Việt Nam. Chùa đã được Bộ trưởng Bộ Văn hóa Việt Nam Dân chủ cộng hòa xếp hạng di tích quốc gia ngay trong đợt I năm 1962[4]. Đây là di tích quan trọng thuộc khu di tích Côn Sơn - Kiếp Bạc được công nhận là di tích quốc gia đặc biệt năm 2012.[5]",
+    "related Character": [
+      "Huyền Quang",
+      "Nguyễn Trãi"
+    ],
+    "name": "Hội chùa Côn Sơn",
+    "location": "Hải Dương, huyện Chí Linh",
+    "id": "Cultural Festival13",
+    "time": "15\/1",
+    "first time": "từ thế kỷ 14"
+  },
+  {
+    "summary": "Lễ hội làm chay \u2013 hay Lễ hội làm trai là một lễ hội tập tục địa phương hàng năm của nhân dân thị trấn Tầm Vu (Châu Thành, Long An) tổ chức lễ hội làm chay vào thời điểm trung tuần tháng Giêng âm lịch (diễn ra từ 14-16\/1 âm lịch). Từ làm chay xuất phát từ chữ đọc trại của từ làm trai đàn do người miền Nam phát âm sai chữ tr và ch mà ra.",
+    "related Character": [
+      "Đỗ Tường Phong",
+      "Đỗ Tường Tự"
+    ],
+    "name": "Lễ hội làm chay",
+    "location": "Long An, thị trấn Tầm Vu",
+    "id": "Cultural Festival14",
+    "time": "14\/1",
+    "first time": "năm 1878"
+  },
+  {
+    "summary": "Tết Nguyên Tiêu (Rằm Tháng Giêng, tiếng Trung Quốc là 元 宵)[1]) là ngày lễ hội cổ truyền tại Trung Quốc [2][3] và là tết Thượng Nguyên tại Việt Nam. Lễ hội trăng rằm từ giữa đêm 14 (đêm trước trăng rằm) trọn ngày 15 (ngày rằm) cho đến nửa đêm 15 (đêm trăng rằm) của tháng giêng Âm lịch.",
+    "related Character": [
+      ""
+    ],
+    "name": "Tết Nguyên tiêu",
+    "location": "Nhiều quốc gia",
+    "id": "Cultural Festival15",
+    "time": "15\/1",
+    "first time": ""
+  },
+  {
+    "summary": "Lễ hội chọi trâu Hải Lựu là một lễ hội chọi trâu diễn ra tại xã Hải Lựu, huyện Sông Lô (trước ngày 23\/12\/2008 thuộc huyện Lập Thạch), tỉnh Vĩnh Phúc.",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ hội chọi trâu",
+    "location": "Vĩnh Phúc, huyện Lập Thạch",
+    "id": "Cultural Festival16",
+    "time": "16\/1",
+    "first time": "thế kỷ 2 trước CN"
+  },
+  {
+    "summary": "",
+    "related Character": [
+      "Linh Sơn Thánh Mẫu"
+    ],
+    "name": "Hội Xuân núi Bà",
+    "location": "Tây Ninh, Núi Bà Đen",
+    "id": "Cultural Festival17",
+    "time": "4\/1",
+    "first time": ""
+  },
+  {
+    "summary": "Yên Phụ có thể là một trong số các địa danh sau:",
+    "related Character": [
+      "Uy Linh Lang",
+      "Vương Duy",
+      "Vương Ba"
+    ],
+    "name": "Lễ hội đình Yên Phụ",
+    "location": "Hà Nội, Hồ Tây",
+    "id": "Cultural Festival18",
+    "time": "10\/2",
+    "first time": "thế kỷ 17"
+  },
+  {
+    "summary": "Miếu Mạch Lũng thuộc xã Đại Mạch, huyện Đông Anh, thành phố Hà Nội được Bộ Văn hóa - Thông tin Việt Nam cấp bằng công nhận Di tích lịch sử văn hóa năm 1993.Ngôi Miếu thờ tọa lạc bên trái sông Hồng, có mặt tiền hướng Tây Nam. Nơi đây thờ ba vị tướng (Lạc tướng) đời vua Hùng Vương thứ 18 gọi là Ba Đức Đại Vương và được phong Thánh ở nơi đây. Ba Lạc tướng đã có công đuổi giặc ngoại xâm, trị quốc, an dân, khai hoang, lập ấp; hướng dẫn người dân nơi đây nghề trồng dâu, nuôi tằm, dệt vải.Miếu được trùng tu, mở rộng nhiều lần. Lần được biết rõ nhất là vào thời Lê Trung Hưng, quy mô bề thế, có giá trị nghệ thuật cao. Kiến trúc của miếu làm theo kiểu chuôi vồ, cửa mở về hướng Tây - Nam, nhìn ra sông Hồng và đến nay còn bảo lưu được những nét hoa văn của nghệ thuật thế kỷ XVII-XVIII. Ngoài ra, miếu còn lưu giữ được cuốn thần phả chữ Hán và sáu đạo Sắc phong của các Triều đại quân chủ Việt Nam, trong đó sắc phong sớm nhất có niên hiệu Tự Đức 6 (1853), sắc phong muộn nhất có niên hiệu Khải Định 9 (1924) và 3 bộ long ngai, bài vị thờ thần và những tác phẩm nghệ thuật thế kỷ thứ 9.Hàng năm người dân trong vùng tổ chức việc tế, lễ vào ngày 10,11,12 tháng 2 âm lịch. Cứ 5 năm 1 lần là có lễ rước kiệu lớn.",
+    "related Character": [
+      "Minh Mỗ Đại vương Thượng đẳng thần"
+    ],
+    "name": "Lễ hội Miếu Mạch Lũng",
+    "location": "Hà Nội, Đông Anh",
+    "id": "Cultural Festival19",
+    "time": "10\/2",
+    "first time": ""
+  },
+  {
+    "summary": "Quán Thế Âm (Tiếng Phạn: अवलोकितेश्वर nghĩa là \"Đấng quán chiếu âm thanh của thế gian\") là một vị Bồ-tát hiện thân cho lòng từ bi của tất cả chư Phật. Được miêu tả trong nhiều nền văn hóa khác nhau, cả thân nam lẫn thân nữ, Quán Thế Âm là một trong những vị Bồ-tát được tôn kính thờ phụng rộng rãi nhất trong Phật giáo Đại thừa, cũng như không chính thức trong Phật giáo Nguyên thủy.Tên nguyên bản tiếng Phạn của vị Bồ-tát này là Avalokiteśvara. Tên tiếng Hán Quán Thế Âm Bồ-tát (觀世音菩薩) được phiên dịch từ tên tiếng Phạn này, \"Avalokiteśvara Bodhisattva\". Bồ-tát này thường được mô tả dưới nhiều dạng thân nam hay nữ. Trong Phật giáo Trung Quốc được biết đến với tên gọi đơn giản là Quan Âm (Guan Yin). Tại Cam-pu-chia, ngài được gọi là Lokesvarak (អវលោកិតេស្វរៈ, អវលោកេស្វរៈ, លោកេស្វរៈ); ở Nhật Bản, ngài được gọi là Kanzeon hay Kannon. Câu niệm Namo Avalokiteshvara Bodhisattva (Nam mô Quán Thế Âm Bồ tát) là câu niệm hồng danh của Quán Thế Âm Bồ tát.",
+    "related Character": [
+      "Quán Thế Âm Bồ Tát"
+    ],
+    "name": "Lễ hội Quán Thế Âm",
+    "location": "Đà Nẵng, Ngũ Hành Sơn",
+    "id": "Cultural Festival20",
+    "time": "19\/2",
+    "first time": "năm 1960"
+  },
+  {
+    "summary": "Tiết Thanh minh là một khái niệm trong công tác lập lịch của các nước phương Đông chịu ảnh hưởng của nền văn hóa Trung Hoa cổ đại. Nó là một trong số hai mươi tư tiết khí của các lịch Trung Quốc, Đài Loan, Việt Nam, Nhật Bản, Triều Tiên.Vì lịch của người Trung Quốc, cũng như Việt Nam cổ đại, bị nhiều người lầm tưởng là âm lịch thuần túy nên rất nhiều người cho rằng nó được tính theo chu kỳ của Mặt Trăng quay xung quanh Trái Đất. Trên thực tế lịch Trung Quốc cổ đại là một loại âm dương lịch nên nếu giải thích theo thuật ngữ của lịch hiện đại ngày nay (lịch Gregory) thì nó được tính theo vị trí của Trái Đất trong chu kỳ chuyển động trên quỹ đạo của mình xung quanh Mặt Trời. Nếu tính điểm xuân phân là gốc (kinh độ Mặt Trời bằng 0°) thì điểm diễn ra hay bắt đầu tiết Thanh minh là kinh độ Mặt Trời bằng 15°. Do vậy, tiết Thanh minh thực tế được tính theo cách tính của dương lịch hiện đại và nó thông thường bắt đầu vào ngày 4 hoặc 5 tháng 4 dương lịch tùy theo từng năm.Theo quy ước, tiết thanh minh là khoảng thời gian bắt đầu từ khoảng ngày 4 hay 5 tháng 4 khi kết thúc tiết xuân phân và kết thúc vào khoảng ngày 20 hay 21 tháng 4 trong lịch Gregory theo các múi giờ Đông Á khi tiết Cốc vũ bắt đầu.",
+    "related Character": [
+      ""
+    ],
+    "name": "Tiết Thanh minh",
+    "location": "",
+    "id": "Cultural Festival21",
+    "time": "",
+    "first time": "Nhà Thanh"
+  },
+  {
+    "summary": "Lễ hội đua voi là một trong những lễ hội quan trọng trong hệ thống các lễ hội cổ truyền của người vùng cao Tây Nguyên Việt Nam. Hội Đua Voi là một trong những hội của văn hóa truyền thống các dân tộc tỉnh Đắk Lắk được tổ chức 02 năm 01 lần vào tháng 3 âm lịch. Là Tháng của những con ong rừng đi lấy mật và cũng là thời điểm bắt đầu làm nương rẫy. Hội Đua Voi nhằm tôn vinh tinh thần thượng võ và tài nghệ thuần dưỡng voi của đồng bào các dân tộc Tây Nguyên.Ngoài ra, du khách đến đây cũng được thưởng thức ẩm thực độc đáo, đậm đà bản sắc của các dân tộc Tây Nguyên tại chỗ và được cưỡi voi tham quan buôn làng, trải nghiệm với hành trình cưỡi Voi lội sông Sêrêpốk tham quan Rừng Yok Don. Được tổ chức ở vùng Đắk Lắk. Một trong những lễ hội được xem là độc đáo nhất của nước Việt Nam ta.",
+    "related Character": [
+      ""
+    ],
+    "name": "Hội đua voi",
+    "location": "Tây Nguyên",
+    "id": "Cultural Festival22",
+    "time": "",
+    "first time": ""
+  },
+  {
+    "summary": "Tết Hàn Thực là một ngày tết vào ngày mồng 3 tháng 3 Âm lịch. \"Hàn Thực\" nghĩa là \"thức ăn lạnh\". Ngày tết truyền thống này xuất hiện tại một số tỉnh của Trung Quốc, miền bắc Việt Nam và một số cộng đồng người gốc Hoa trên thế giới.Hàng năm vào ngày này, nhiều gia đình cho xay bột, đồ đỗ xanh, làm bánh trôi, bánh chay (ở Trung Quốc nấu chè trôi nước), nấu xôi chè lễ Phật và cúng gia tiên, có lẽ đó cũng là một cách tưởng niệm người thân trong những ngày tháng cuối xuân.",
+    "related Character": [
+      "Giới Tử Thôi",
+      "Tấn Văn Công"
+    ],
+    "name": "Tết Hàn thực",
+    "location": "",
+    "id": "Cultural Festival23",
+    "time": "3\/3",
+    "first time": "Nhà Lê"
+  },
+  {
+    "summary": "Phủ Dầy (có khi ghi là Phủ Giầy, Phủ Giày) là một quần thể kiến trúc tín ngưỡng truyền thống của người Việt trải rộng trên địa bàn xã Kim Thái huyện Vụ Bản, tỉnh Nam Định, gần quốc lộ 10, quốc lộ 37B và quốc lộ 38B từ thành phố Nam Định đi thành phố Ninh Bình.",
+    "related Character": [
+      "Mẫu Liễu Hạnh"
+    ],
+    "name": "Hội Phủ Giầy",
+    "location": "Nam Định, Vụ Bản",
+    "id": "Cultural Festival24",
+    "time": "3\/3",
+    "first time": ""
+  },
+  {
+    "summary": "Điện Hòn Chén hay Huệ Nam Điện tọa lạc trên núi Ngọc Trản, thuộc làng Ngọc Hồ, phường Hương Hồ, thành phố Huế, tỉnh Thừa Thiên Huế. Núi Ngọc Trản xưa có tên là Hương Uyển Sơn, sau mới đổi tên là Ngọc Trản (có nghĩa là chén ngọc), dân gian vẫn quen gọi là Hòn Chén vì nó có liên quan đến giai thoại về vua Minh Mạng đánh rơi chén ngọc.",
+    "related Character": [
+      "Thiên Y A Na"
+    ],
+    "name": "Lễ hội Điện Hòn Chén",
+    "location": "Thừa Thiên Huế, huyện Hương Trà",
+    "id": "Cultural Festival25",
+    "time": "2\/3",
+    "first time": "thế kỷ 16"
+  },
+  {
+    "summary": "Chùa Thầy là một nhóm những ngôi chùa ở chân núi Sài Sơn, huyện Quốc Oai, tỉnh Hà Tây cũ, nay là xã Sài Sơn, huyện Quốc Oai, Hà Nội, cách trung tâm Hà Nội khoảng 20 km về phía Tây nam, đi theo đường cao tốc Láng - Hòa Lạc. Sài Sơn có tên Nôm là núi Thầy, nên chùa được gọi là chùa Thầy. Chùa được xây dựng từ thời nhà Lý. Đây từng là nơi tu hành của Thiền sư Từ Đạo Hạnh, lúc này núi Thầy còn gọi là núi Phật Tích.",
+    "related Character": [
+      "Từ Đạo Hạnh"
+    ],
+    "name": "Lễ hội Chùa Thầy",
+    "location": "Hà Tây, Quốc Oai",
+    "id": "Cultural Festival26",
+    "time": "3\/3",
+    "first time": ""
+  },
+  {
+    "summary": "Lễ hội Hoa Lư là một lễ hội truyền thống diễn ra hàng năm để tôn vinh vị anh hùng dân tộc Đinh Bộ Lĩnh đã xây dựng kinh đô Hoa Lư, lập ra nhà nước Đại Cồ Việt và mở đầu thời kỳ độc lập, thống nhất lâu dài của người Việt suốt các triều đại Đinh, Lê, Lý, Trần. Lễ hội Hoa Lư đã được xếp hạng là di sản văn hóa cấp quốc gia và đang được đề nghị nâng tầm tổ chức lễ hội theo nghi thức cấp nhà nước.[1] Lễ hội Hoa Lư là lễ hội đã có lịch sử lâu đời, phản ánh đậm nét, sinh động về cuộc đời, thân thế và sự nghiệp của đức vua Đinh Tiên Hoàng và lịch sử Việt Nam qua ba triều đại Đinh, Lê, Lý. Lễ hội Hoa Lư xưa được các vương triều phong kiến tổ chức trang trọng ở cấp Nhà nước. Hiện nay, lễ hội Hoa Lư vẫn là lễ hội có tầm ảnh hưởng lớn, bảo lưu được những yếu tố văn hóa, văn nghệ dân gian đặc sắc và đang hướng tới nâng cấp thành quốc lễ.",
+    "related Character": [
+      "Đinh Bộ Lĩnh"
+    ],
+    "name": "Lễ hội Hoa Lư",
+    "location": "Ninh Bình, huyện Hoa Lư",
+    "id": "Cultural Festival27",
+    "time": "6\/3",
+    "first time": "Nhà Lý"
+  },
+  {
+    "summary": "Hành cung Vũ Lâm là một căn cứ quân sự thời Trần, nằm ngay trong vùng núi thành Nam của kinh đô Hoa Lư xưa. Các vua đầu nhà Trần lập căn cứ địa ở Vũ Lâm để củng cố lực lượng, phản công giải phóng Đại Việt trong cuộc kháng chiến đánh tan quân xâm lược Nguyên Mông lần thứ hai. Nơi đây còn gắn với sự kiện các vua Trần xuất gia tu hành, mở mang phật giáo. Hiện nay, hành cung Vũ Lâm thuộc quần thể di sản thế giới Tràng An, tỉnh Ninh Bình, một phần khu vực nằm sâu trong dãy núi Tràng An được đưa vào khai thác du lịch.",
+    "related Character": [
+      "Trần Thái Tông",
+      "Trần Thánh Tông",
+      "Trần Nhân Tông",
+      "Trần Anh Tông",
+      "Hiển Từ Hoàng Thái Hậu"
+    ],
+    "name": "Lễ hội đền Thái Vi",
+    "location": "Ninh Bình, huyện Hoa Lư",
+    "id": "Cultural Festival28",
+    "time": "14\/3",
+    "first time": "Nhà Trần"
+  },
+  {
+    "summary": "Lễ hội Nam Trì là lễ hội tế Thần có từ thế kỷ thứ 2 trước Công nguyên của trang Nam Trì (nay là làng Nam Trì xã Đặng Lễ huyện Ân Thi tỉnh Hưng Yên, dân gian gọi là Lễ hội Bảo, Lang, Biền. Bảo, Lang, Biền là ba vị Thượng đẳng Phúc thần Dực bảo trung hưng Bản cảnh Thành hoàng Đại vương thờ tại đền Nam Trì.Lễ hội chính được tổ chức vào tháng 3 âm lịch hàng năm.",
+    "related Character": [
+      "Lang Công",
+      "Bảo Công",
+      "Công chúa Hùng vương Lâu nương"
+    ],
+    "name": "Lễ hội Nam Trì",
+    "location": "Hưng Yên, huyện Ân Thi",
+    "id": "Cultural Festival29",
+    "time": "8\/3",
+    "first time": "Thế kỉ 2 trước CN"
+  },
+  {
+    "summary": "Đền Hùng là tên gọi khái quát của Khu di tích lịch sử Đền Hùng - quần thể đền chùa thờ phụng các Vua Hùng và tôn thất của nhà vua trên núi Nghĩa Lĩnh (Việt Trì, Phú Thọ), gắn với Giỗ Tổ Hùng Vương - Lễ hội Đền Hùng được tổ chức tại địa điểm đó hàng năm vào ngày 10 tháng 3 âm lịch. Hiện nay, theo các tài liệu khoa học đã công bố đa số đều thống nhất nền móng kiến trúc đền Hùng bắt đầu được xây dựng từ thời vua Đinh Tiên Hoàng trị vì. Đến thời Hậu Lê (thế kỷ 15) được xây dựng hoàn chỉnh theo quy mô như hiện tại.Từ chân núi đi lên, qua cổng đền, điểm dừng chân của du khách là đền Hạ, tương truyền là nơi nàng Âu Cơ đẻ ra bọc trăm trứng. Trăm trứng ấy đẻ ra trăm người con, năm mươi người theo cha xuống biển, bốn chín người theo mẹ lên núi. Người con ở lại làm vua, lấy tên là Hùng Vương (thứ nhất).Qua đền Hạ là đền Trung, nơi các vua Hùng dùng làm nơi họp bàn với các Lạc hầu, Lạc tướng. Trên đỉnh núi là đền Thượng là lăng Hùng Vương thứ sáu (trong dân gian gọi là mộ tổ) từ đền Thượng đi xuống phía Tây nam là đền Giếng, nơi có cái giếng đá quanh năm nước trong vắt. Tương truyền ngày xưa các công chúa Tiên Dung và Ngọc Hoa, con vua Hùng Vương thứ mười tám, thường tới gội đầu tại đó.Lễ hội đền Hùng bao gồm những hoạt động văn hóa, văn nghệ mang tính chất nghi thức truyền thống và những hoạt động văn hóa dân gian khác\u2026 Các hoạt động văn hóa mang tính chất nghi thức còn lại đến ngày nay là lễ rước kiệu vua và lễ dâng hương. Đó là hai nghi lễ được cử hành đồng thời trong ngày chính hội. Đám rước kiệu xuất phát từ dưới chân núi rồi lần lượt qua các đền để tới đền Thượng, nơi làm lễ dâng hương. Đó là một đám rước tưng bừng những âm thanh của các nhạc cụ cổ truyền và màu sắc sặc sỡ của bạt ngàn cờ, hoa, lọng, kiệu, trang phục truyền thống\u2026 Dưới tán lá mát rượi của những cây trò, cây mỡ cổ thụ và âm vang trầm bổng của trống đồng, đám rước như một con rồng uốn lượn trên những bậc đá huyền thoại để tới đỉnh núi Thiêng.[3][4][5][6]",
+    "related Character": [
+      "Vua Hùng"
+    ],
+    "name": "Giỗ tổ Hùng Vương",
+    "location": "Nhiều nơi ở Việt Nam",
+    "id": "Cultural Festival30",
+    "time": "10\/3",
+    "first time": "Nhà Đinh"
+  },
+  {
+    "summary": "Đền Mẫu có thể là một trong các công trình tín ngưỡng tại Việt Nam sau đây:",
+    "related Character": [
+      "Dương Quý Phi"
+    ],
+    "name": "Lễ hội đền Mẫu",
+    "location": "Hưng Yên, Phố Hiến",
+    "id": "Cultural Festival31",
+    "time": "10\/3",
+    "first time": ""
+  },
+  {
+    "summary": "",
+    "related Character": [
+      "Hồ Chí Minh"
+    ],
+    "name": "Lễ hội Làng cá Cát Bà",
+    "location": "Hải Phòng, huyện Cát Hải, Thị trấn Cát Bà",
+    "id": "Cultural Festival32",
+    "time": "",
+    "first time": "1\/4\/1958"
+  },
+  {
+    "summary": "Hội Gióng là một lễ hội truyền thống hàng năm ở nhiều nơi thuộc vùng Hà Nội để tưởng niệm và ca ngợi chiến công của người anh hùng truyền thuyết Thánh Gióng, một trong tứ bất tử của tín ngưỡng dân gian Việt Nam .Có 2 hội Gióng [1] tiêu biểu ở Hà Nội là hội Gióng Sóc Sơn ở đền Sóc xã Phù Linh, huyện Sóc Sơn và hội Gióng Phù Đổng ở đền Phù Đổng, xã Phù Đổng, huyện Gia Lâm đã được UNESCO ghi danh là di sản văn hóa phi vật thể của nhân loại.[2][3] Ngoài ra còn hơn 10 hội Gióng cũng thuộc địa bàn Hà Nội (gọi là vùng lan tỏa vì chưa được UNESCO ghi danh) như: hội Gióng Bộ Đầu xã Thống Nhất, huyện Thường Tín; lễ hội thờ Thánh Gióng ở các làng Đổng Xuyên, Lệ Chi (huyện Gia Lâm); các làng Phù Lỗ Đoài, Thanh Nhàn, Xuân Lai (huyện Sóc Sơn); Sơn Du, Cán Khê, Đống Đồ (huyện Đông Anh); Xuân Tảo (Phường Xuân Đỉnh, Quận Bắc Từ Liêm); làng Hội Xá (Quận Long Biên).Giá trị nổi bật toàn cầu ở hội Gióng chính là một hiện tượng văn hóa được bảo lưu, trao truyền khá liên tục và toàn vẹn qua nhiều thế hệ. Mặc dù ở gần trung tâm thủ đô và đời sống cộng đồng trải qua nhiều biến động do chiến tranh, do sự xâm nhập và tiếp biến văn hóa, hội Gióng vẫn tồn tại một cách độc lập và bền vững, không bị nhà nước hóa, thương mại hóa.[4]",
+    "related Character": [
+      "Thánh Gióng"
+    ],
+    "name": "Hội Gióng Phù Đổng",
+    "location": "Hà Nội, huyện Gia Lâm",
+    "id": "Cultural Festival33",
+    "time": "7\/4",
+    "first time": "Thế kỉ 11 đời Lý Thái Tổ"
+  },
+  {
+    "summary": "Phật Đản (chữ Nho 佛誕 - nghĩa là ngày sinh của đức Phật) hay là Vesak (tiếng Phạn: Vaiśākha, Devanagari: वैशाख, Sinhala: වෙසක් පෝය) là ngày kỷ niệm Phật Tất-đạt-đa Cồ-đàm sinh ra tại vườn Lâm-tì-ni năm 624 TCN, diễn ra vào ngày 8 tháng 4 âm lịch hoặc 14 tháng 5 hàng năm, tùy theo quốc gia.Theo truyền thống Phật giáo Bắc tông và ảnh hưởng của Phật giáo Trung Hoa, ngày này chỉ là ngày kỷ niệm ngày sinh của đức Phật Thích Ca; tuy nhiên, theo Phật giáo Nam truyền và Phật giáo Tây Tạng thì ngày này là ngày Tam hiệp (kỷ niệm Phật đản, Phật thành đạo và Phật nhập Niết-bàn). Ngày Phật Đản hay là lễ Vesak, Tam Hiệp được kỷ niệm vào các ngày khác nhau tùy theo quốc gia.Một số quốc gia với đa số Phật tử chịu ảnh hưởng Bắc tông (như Trung Quốc, Hàn Quốc, Nhật Bản, Việt Nam) thường tổ chức ngày lễ Phật đản vào ngày mồng 8 tháng 4 âm lịch. Các quốc gia theo Nam tông thường tổ chức vào ngày trăng tròn trong tháng 4 âm lịch hay là ngày trăng tròn trong tháng 5 dương lịch. Có những năm có 2 ngày trăng tròn trong tháng 5 dương lịch như năm 2007, có nơi tổ chức ngày Vesak vào ngày trăng tròn đầu tiên (ngày 1 tháng 5) trong khi tại nơi khác lại kỷ niệm vào ngày trăng tròn thứ 2 (ngày 31 tháng 5).[1] Cách tính kỷ nguyên Phật lịch tại các quốc gia theo truyền thống Nam tông cũng khác nhau, nên năm Phật lịch có thể cách nhau một năm.",
+    "related Character": [
+      "Phật Tất Đạt Đa"
+    ],
+    "name": "Lễ Phật Đản",
+    "location": "Nhiều quốc gia",
+    "id": "Cultural Festival34",
+    "time": "8\/4",
+    "first time": "624 trước CN"
+  },
+  {
+    "summary": "Chol Chnam Thmay (hoặc Chaul Chnam Thmay) là lễ hội mừng năm mới theo lịch cổ truyền của dân tộc Khmer. Chôl nghĩa là Vào và Chnăm Thmay là Năm Mới. Lễ Chôl Chnăm Thmay cũng là những ngày Tết của Campuchia, Lào, Thái Lan, Myanmar, Sri Lanka. Ngoài tôn giáo chính là Phật giáo, người Khmer còn tin rằng mỗi năm có một vị thần trên trời (Têvôđa) được sai xuống để chăm lo cho cuộc sống và con người trong năm đó, hết năm lại về trời để vị thần khác xuống hạ giới. Những ngày này trở thành, lễ hội truyền thống của cả cộng đồng. Tổ chức nhiều trò vui như đốt đèn trời, đốt ông lói, đánh quay lửa... Các cụ già kể cổ tích, thần thoại, chuyện cũ cho con cháu nghe.Campuchia cũng sử dụng kỷ nguyên Phật giáo để đếm năm dựa trên lịch Phật giáo. Đối với năm 2012 là Phật lịch 2556 (kỷ nguyên Phật giáo).[1]",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ hội Chol Chnam Thmay",
+    "location": "Nam Bộ",
+    "id": "Cultural Festival35",
+    "time": "14\/4",
+    "first time": ""
+  },
+  {
+    "summary": "Lễ khao lề thế lính là một lễ hội được nhân dân huyện đảo Lý Sơn, tỉnh Quảng Ngãi duy trì hàng trăm năm nay[1]. Thời gian đầu khi mới thành lập Đội Hoàng Sa, cứ hàng năm người của đảo Lý Sơn lại được tuyển mộ vào đội này làm binh, phu đi khai thác và bảo vệ Hoàng Sa và Trường Sa. Việc này gọi là \"thế lính\". Lễ khao lề thế lính là một lễ hội độc đáo với truyền thống uống nước nhớ nguồn nhằm ghi nhớ công ơn người xưa hay nhóm An Vĩnh thuộc hải đội Hoàng Sa đã ra đi tìm kiếm sản vật và cắm mốc biên giới hải phận mà không trở về[2].Lễ hội được tổ chức tại Âm Linh Tự (một di tích được xếp hạng quốc gia) vào các ngày 18, 19, 20 tháng 3 âm lịch hàng năm. Đây là lễ hội lớn không chỉ của huyện mà còn của cả tỉnh Quảng Ngãi. Với hình thức tổ chức rất công phu nhiều công đoạn, song đặc biệt hơn cả là hình thức thả thuyền giấy ra biển ngụ ý mãi duy trì việc ra biển như trước và có lẽ vì thế mà lễ hội có tên là khao lề thế lính. Vào những ngày này, ngoài việc tổ chức người địa phương còn thực hiện đắp và dọn các ngôi mộ của các chiến sĩ hải đội Hoàng Sa (dân nơi đây gọi là Mộ gió).Lễ hội này không chỉ mang ý nghĩa phục vụ công tác nghiên cứu văn hóa cộng đồng cư dân ven biển Việt Nam, du lịch mà còn thể hiện đạo lý uống nước nhớ nguồn, truyền thống gìn giữ và bảo vệ lãnh thổ và lãnh hải của đất nước. Đề nghị mọi người cùng ủng hộ việc nghiên cứu, lập hồ sơ trình UNESCO công nhận Lễ Khao lề thế lính Hoàng Sa, một lễ hội có lịch sử 400 năm là Di sản Văn hoá Phi vật thể đại diện của nhân loại. Đó cũng là một cách để khẳng định chủ quyền của nước ta đối với Hoàng Sa và Trường Sa.",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ khao lề thế lính",
+    "location": "Quảng Ngãi, huyện Lý Sơn",
+    "id": "Cultural Festival36",
+    "time": "18\/3",
+    "first time": ""
+  },
+  {
+    "summary": "Lễ hội miếu Bà Chúa Xứ còn gọi lễ Vía Bà là một lễ hội của người dân Nam bộ, nằm dưới Núi Sam. Thành phố Châu Đốc, tỉnh An Giang, hàng năm đã thu hút trên 2 triệu lượt khách hành hương[1]",
+    "related Character": [
+      "Bà Chúa Xứ"
+    ],
+    "name": "Lễ hội miếu Bà Chúa Xứ",
+    "location": "Miếu Bà Chúa Xứ, Núi Sam, An Giang, Châu Đốc",
+    "id": "Cultural Festival37",
+    "time": "23\/4",
+    "first time": ""
+  },
+  {
+    "summary": "Tết Đoan Ngọ hoặc Tết Đoan Dương (Hán Việt: 端午節 - Đoan Ngọ Tiết, 端陽節 - Đoan Dương Tiết) (ngày mùng 5 tháng 5 theo lịch Trung Quốc) là một ngày Tết truyền thống tại một số nước như Trung Quốc, Hồng Kông, Đài Loan, Triều Tiên, Nhật Bản và Việt Nam. Tết Đoan Ngọ tồn tại từ lâu trong văn hóa dân gian phương Đông và có ảnh hưởng đến sinh hoạt văn hóa. Đoan nghĩa là mở đầu, Ngọ là khoảng thời gian từ 11 giờ trưa tới 1 giờ chiều, và ăn Tết Đoan Ngọ là ăn vào buổi trưa.[1] Đoan ngọ lúc mặt trời bắt đầu ngắn nhất, ở gần trời đất nhất trùng với ngày hạ chí.[2] Tết Đoan Ngọ còn được gọi là Tết Đoan dương. Theo triết lý y học Đông phương thì hỏa khí (thuộc dương) của trời đất và trong cơ thể của con người trong ngày Đoan ngọ đều lên đến tột bậc.[3]Người Việt Nam còn gọi Tết Đoan Ngọ là Tết giết sâu bọ, là ngày phát động bắt sâu bọ, tiêu diệt bớt các loài gây hại cho cây trồng trên cánh đồng, trong đó nhiều loài sâu có thể ăn được và chúng được coi như là chất bổ dưỡng.[1][2][4][5][6][7]Truyền thuyết về lịch sử ngày mùng 5 tháng năm được lưu truyền khác nhau ở Việt Nam, Trung Quốc, Nhật Bản và Hàn Quốc.",
+    "related Character": [
+      ""
+    ],
+    "name": "Tết Đoan ngọ",
+    "location": "Nhiều quốc gia",
+    "id": "Cultural Festival38",
+    "time": "5\/5",
+    "first time": ""
+  },
+  {
+    "summary": "Thất Tịch (Hán-Nôm: 七夕) hay còn gọi là Tết Ngâu, Ngày Ông Ngâu Bà Ngâu, theo văn hóa phương Đông, (Châu Á), lễ được tổ chức ngày 7 tháng 7 Âm lịch, đôi khi được người phương Tây gọi là ngày Valentine Đông Á. Lịch sử ngày này gắn bó với câu chuyện Ngưu Lang Chức Nữ hoặc vợ chồng Ngâu với nhiều dị bản. Theo truyền thuyết, sau một năm xa cách, cứ đến ngày này hằng năm, Ngưu Lang và Chức Nữ được gặp nhau bên cầu Ô Thước.[1]",
+    "related Character": [
+      "Ngưu Lang",
+      "Chức Nữ"
+    ],
+    "name": "Thất Tịch",
+    "location": "Nhiều quốc gia",
+    "id": "Cultural Festival39",
+    "time": "7\/7",
+    "first time": ""
+  },
+  {
+    "summary": null,
+    "related Character": [
+      "Bồ tát Mục Liên"
+    ],
+    "name": "Lễ Vu Lan, Tết Trung Nguyên",
+    "location": "Nhiều quốc gia",
+    "id": "Cultural Festival40",
+    "time": "15\/7",
+    "first time": ""
+  },
+  {
+    "summary": "Lễ hội Nghinh Ông Quan Thánh Đế Quân là một lễ hội của người Hoa tại Phan Thiết. Lễ hội truyền thống này tiêu biểu cho phong tục tập quán và tín ngưỡng của người Hoa, ước mong cho quốc thái dân an, mưa thuận gió hòa, cho một cuộc sống thanh bình, mọi người trong xã hội được ấm no hạnh phúc.",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ hội Nghinh Ông (Quan Thánh Đế Quân)",
+    "location": "Phan Thiết (Bình Thuận)",
+    "id": "Cultural Festival41",
+    "time": "",
+    "first time": ""
+  },
+  {
+    "summary": "Lễ hội Katé còn được gọi là Mbang Katé là một lễ hội của đồng bào dân tộc Chăm.[1] Đây là một lễ hội dân gian thiêng liêng đặc sắc và rất quan trọng. Tưởng nhớ đến những người đã khuất, tưởng nhớ đến các vị anh hùng dân tộc (được người Chăm tôn vinh làm thần). Thường được tổ chức vào 1 tháng 7 theo lịch của người Chăm (khoảng 25\/9 đến 25\/10 dương lịch). Người dân tập trung tại các đền tháp cổ kính, thưởng thức các điệu múa nhạc dân gian trong kho tàng âm nhạc của người Chăm. Mọi người nghỉ ngơi và tràn ngập niềm vui, đi thăm viếng chúc tụng lẫn nhau. Lễ hội được chia làm hai phần là phần lễ và phần hội",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ hội Katê",
+    "location": "Bình Thuận",
+    "id": "Cultural Festival42",
+    "time": "",
+    "first time": ""
+  },
+  {
+    "summary": "Lễ hội chọi trâu Đồ Sơn, còn gọi là đấu ngưu , là một tập tục cổ, có từ xa xưa, một lễ hội truyền thống của người dân vạn chài tại vùng biển Đồ Sơn, Hải Phòng; diễn ra vào ngày 9 tháng 8 Âm lịch hàng năm; di sản văn hóa phi vật thể quốc gia năm 2013 của Việt Nam.[1][2] Đây là một lễ hội với lễ nghi trang trọng, rước kiệu thần, có lọng che, phường bát âm...[3].Trong văn hóa cộng đồng người dân Hải Phòng, còn lưu truyền câu ca cổ: \"Dù ai buôn đâu bán đâu \/ Mùng chín tháng tám chọi Trâu thì về\"",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ hội chọi trâu",
+    "location": "Hải Phòng, Đồ Sơn",
+    "id": "Cultural Festival43",
+    "time": "9\/8",
+    "first time": ""
+  },
+  {
+    "summary": "Tết Trung thu (chữ Nôm: 節中秋; tiếng Trung: 中秋節 (Trung thu tiết)\/ Zhōngqiū jié; Tiếng Hàn: 한가을 축제; Tiếng Nhật: お月見の日、中秋節(ちゅうしゅうせつ)、còn được gọi là Tết trông Trăng hay Tết hoa đăng theo Âm lịch là ngày Rằm tháng 8 hằng năm, là một lễ hội truyền thống được kỉ niệm ở văn hóa của Việt Nam. Một văn hoá lâu đời từ Trung Quốc nhưng đến hiện tại đã phát triển thành ngày trẻ em của Việt Nam.Các lễ tương tự được tổ chức ở các quốc gia Đông Á và Đông Nam Á như Trung Quốc, Việt Nam, Nhật Bản, Triều Tiên, Đài Loan, Singapore...",
+    "related Character": [
+      "Hằng Nga",
+      "Hậu Nghệ",
+      "Đường Minh Hoàng",
+      "Chú Cuội"
+    ],
+    "name": "Tết Trung Thu",
+    "location": "Nhiều quốc gia",
+    "id": "Cultural Festival44",
+    "time": "15\/8",
+    "first time": "Nhà Đường"
+  },
+  {
+    "summary": "Đền Kiếp Bạc thuộc địa phận hai thôn Dược Sơn và Vạn Kiếp, xã Hưng Đạo, thành phố Chí Linh, tỉnh Hải Dương, Việt Nam; là nơi thờ phụng Hưng Đạo Đại Vương Trần Quốc Tuấn. Kiếp Bạc là tên ghép của hai vùng Vạn Yên (làng Kiếp) và Dược Sơn (làng Bạc). Đây là di tích quan trọng thuộc khu di tích Côn Sơn - Kiếp Bạc.",
+    "related Character": [
+      "Trần Hưng Đạo"
+    ],
+    "name": "Hội Đền Kiếp Bạc",
+    "location": "Hải Dương, huyện Chí Linh",
+    "id": "Cultural Festival45",
+    "time": "15\/8",
+    "first time": ""
+  },
+  {
+    "summary": "",
+    "related Character": [
+      "Cao Quỳnh Cư",
+      "Phạm Công Tắc",
+      "Cao Hoài Sang",
+      "Nguyễn Thị Hiếu"
+    ],
+    "name": "Hội Yến Diêu Trì",
+    "location": "Tây Ninh, Tòa Thánh Tây Ninh",
+    "id": "Cultural Festival46",
+    "time": "15\/8",
+    "first time": "năm 1925"
+  },
+  {
+    "summary": "Lễ hội nghinh Ông là lễ hội cúng cá Ông của ngư dân các tỉnh miền ven biển Việt Nam từ Quảng Bình trở vào Nam (gồm cả Phú Quốc)[1]. Đây là lễ hội cầu ngư: cầu cho biển lặng gió hòa, ngư dân may mắn làm ăn phát đạt, an khang. Lễ hội nghinh Ông là loại lễ hội nước lớn nhất của ngư dân. Có nhiều tên gọi khác nhau như lễ rước cốt ông, lễ cầu ngư, lễ tế cá \"Ông\", lễ cúng \"Ông\", lễ nghinh \"Ông\", lễ nghinh ông Thủy tướng, nhưng tất cả đều có chung một quan niệm rằng cá \"Ông\" là sinh vật thiêng ở biển, là cứu tinh đối với những người đánh cá và làm nghề trên biển nói chung. Điều này đã trở thành một tín ngưỡng dân gian phổ biến trong các thế hệ ngư dân ở các địa phương nói trên. Ở mỗi địa phương, lễ hội nghinh Ông diễn ra vào một thời điểm khác nhau.",
+    "related Character": [
+      ""
+    ],
+    "name": "Lễ hội Nghinh Ông (Cá Voi)",
+    "location": "Bình Thuận, Tiền Giang",
+    "id": "Cultural Festival47",
+    "time": "",
+    "first time": ""
+  },
+  {
+    "summary": "",
+    "related Character": [
+      "Nguyễn Trung Trực"
+    ],
+    "name": "Lễ hội AHDT Nguyễn Trung Trực",
+    "location": "Rạch Giá, Kiên Giang",
+    "id": "Cultural Festival48",
+    "time": "",
+    "first time": ""
+  },
+  {
+    "summary": "Chùa Keo là tên gọi của một số ngôi chùa cổ ở Việt Nam. Một số ngôi chùa Keo cổ được biết đến nhiều nhất là:",
+    "related Character": [
+      "Thiền sư Không Lộ"
+    ],
+    "name": "Lễ hội Chùa Keo",
+    "location": "Thái Bình, Vũ Thư",
+    "id": "Cultural Festival49",
+    "time": "13\/9",
+    "first time": "Nhà Lý"
+  },
+  {
+    "summary": "Tết Song thập (Chữ Hán: 十成節, Hán Việt: Song thập tiết) (mùng 10 tháng 10 hoặc 15 tháng 10 Âm lịch) còn gọi là tết của các thầy thuốc, hay là Tết Trùng thập, Tết Thường tân, Tết Cơm mới tháng mười, có xuất xứ từ Trung Quốc.Theo sách \"Dược lễ\", thì ngày 10 tháng 10 Âm lịch, cây thuốc mới tụ được khí âm dương, kết được sắc tứ thời (Xuân, Hạ, Thu, Đông) trở nên tốt nhất, vì nó chủ yếu để kỷ niệm mùa gặt của năm và hy sinh mùa gặt. Người ta tin rằng một phần mười của tháng mười là một phần mười hoàn hảo, và đó là ngày hoàn hảo nhất sau mùa thu, vì vậy Tết song thập, người Hoa luôn tạ ơn vì ân sủng của vùng đất vào ngày này. Các món ăn chính trong ngày này và thực phẩm được làm từ gạo, chẳng hạn như gạo và cỏ linh lăng.",
+    "related Character": [
+      ""
+    ],
+    "name": "Tết cơm mới",
+    "location": "Nhiều quốc gia",
+    "id": "Cultural Festival50",
+    "time": "15\/10",
+    "first time": ""
+  },
+  {
+    "summary": "Lễ hội đền Nguyễn Công Trứ là lễ hội lớn nhất của cư dân huyện mới ven biển Kim Sơn tỉnh Ninh Bình để ghi nhớ công ơn của Doanh điền Nguyễn Công Trứ - người đã chiêu dân khai hoang lấn biển lập ra huyện Kim Sơn (núi vàng) của Ninh Bình và Tiền Hải (biển bạc) của Thái Bình. Lễ hội diễn ra từ ngày 14 tháng 11 đến 16 tháng 11 âm lịch hàng năm để tưởng niệm ngày mất của ông.Đền thờ Nguyễn Công Trứ nằm bên quốc lộ 10, cách thị trấn Phát Diệm 2 km, thuộc xã Quang Thiện, Kim Sơn.Đền thờ Nguyễn Công Trứ ở Ninh Bình, Thái Bình và Hà Tĩnh đều có điểm chung là được nhân dân xây dựng từ khi ông còn sống nhưng mãi tới những năm đầu thế kỷ 21 thì tượng ông mới hoàn thành và rước về 3 đền. Tất cả ba ngôi đền đều được công nhận là di tích lịch sử cấp quốc gia.",
+    "related Character": [
+      "Nguyễn Công Trứ"
+    ],
+    "name": "Lễ hội đền Nguyễn Công Trứ",
+    "location": "Ninh Bình, huyện Kim Sơn",
+    "id": "Cultural Festival51",
+    "time": "13\/11",
+    "first time": "Nhà Nguyễn"
+  },
+  {
+    "summary": "Táo Quân (Chữ Hán: 灶君); Táo Vương (灶王), Ông Táo (翁灶) hay Thần Bếp (神灶) trong tín ngưỡng dân gian Việt Nam và Trung Hoa được xem là vị thần cai quản việc bếp núc trong mỗi nhà; Táo (灶) có nghĩa là bếp. Việt Nam và Trung Hoa có những truyền thuyết về Táo Quân khác nhau.",
+    "related Character": [
+      "Thổ Công",
+      "Thổ địa",
+      "Thổ kỳ"
+    ],
+    "name": "Tiễn Ông Táo về trời",
+    "location": "Nhiều quốc gia",
+    "id": "Cultural Festival52",
+    "time": "23\/12",
+    "first time": ""
+  }
+]
