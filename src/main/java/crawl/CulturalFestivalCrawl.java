@@ -34,19 +34,28 @@ public class CulturalFestivalCrawl {
         JSONArray arr = new JSONArray();
         assert url != null;
         for (String s : url) {
+            JSONObject obj = new JSONObject();
             try {
                 Document document = Jsoup.connect(s).get();
                 Elements table = document.getElementsByClass("prettytable wikitable");
                 Elements elements = Objects.requireNonNull(table.first()).getElementsByTag("td");
-                for (int j = 2; j < elements.size(); j+=6) {
+                for (int j = 2; j < elements.size(); j += 6) {
                     time = getTime(elements.get(j));
-                    location = getLocation(elements.get(j+1));
-                    name = getName(elements.get(j+2));
-                    summary = getSummary(elements.get(j+2));
-                    firstTime = getFirstTime(elements.get(j+3));
-                    relatedCharacter = getRelatedCharacter(elements.get(j+4));
+                    location = getLocation(elements.get(j + 1));
+                    name = getName(elements.get(j + 2));
+                    summary = getSummary(elements.get(j + 2));
+                    firstTime = getFirstTime(elements.get(j + 3));
+                    relatedCharacter = getRelatedCharacter(elements.get(j + 4));
 //                    relatedHistoricalSites
                     ++qty;
+                    obj.put("id", "Cultural Festival" + qty);
+                    obj.put("name", name);
+                    obj.put("time", time);
+                    obj.put("location", location);
+                    obj.put("first time", firstTime);
+                    obj.put("related Character", relatedCharacter);
+                    obj.put("summary", summary);
+                    arr.add(obj);
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
@@ -97,34 +106,6 @@ public class CulturalFestivalCrawl {
 
         }
         return summary.toString();
-    }
-
-    public JSONObject getCulturalFestival() {
-        JSONObject obj = new JSONObject();
-        obj.put("id", "Cultural Festival " + qty);
-        obj.put("Cultural Festival", name);
-        obj.put("Time", time);
-        obj.put("Location", location);
-        obj.put("First Time", firstTime);
-        obj.put("Related Character", relatedCharacter);
-        obj.put("Related Historical Sites", relatedHistoricalSites);
-        obj.put("Summary", summary);
-        System.out.println(obj);
-        return obj;
-    }
-    public JSONArray getCulturalFestival(Elements elements) {
-        JSONArray jsonArray = new JSONArray();
-        for (Element element : elements) {
-            time = getTime(element);
-            location = getLocation(element);
-            firstTime = getFirstTime(element);
-            name = getName(element);
-            relatedCharacter = getRelatedCharacter(element);
-//            relatedHistoricalSites = getRelatedHistoricalSites();
-            summary = getSummary(element);
-            jsonArray.add(getCulturalFestival());
-        }
-        return jsonArray;
     }
 
 }
