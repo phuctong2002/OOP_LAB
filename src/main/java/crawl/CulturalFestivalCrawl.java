@@ -58,38 +58,38 @@ public class CulturalFestivalCrawl {
                 Elements tds = Objects.requireNonNull(table2.first()).getElementsByTag("ul");
                 Elements td = tds.get(10).select("li");
                 for (Element element : td) {
-                    JSONObject obj = new JSONObject();
                     ++qty;
                     //tach dia diem, le hoi
                     List<String> list = new ArrayList<>();
                     String a = element.select("li").text();
                     Collections.addAll(list, a.split(": ", 0));
                     String location = list.get(0);
-                    obj.put("Location", location);
+//                    obj.put("Location", location);
                     // tach le hoi
                     List<String> listFes = new ArrayList<>();
                     String tmp = list.get(1).replaceAll("\\(.*?\\)","");
                     Collections.addAll(listFes, tmp.split("[,\\;]", 0));
                     // tach ngay
-                    int cnt = 1;
+//                    int cnt = 1;
                     for (int k = 0; k < listFes.size(); k++) {
+                        JSONObject obj = new JSONObject();
                         String str = listFes.get(k).replaceAll("[^0-9/-]", " ");
                         List<String> m = new ArrayList<>();
                         Collections.addAll(m, str.split(" ", 0));
-                        obj.put("Name" + cnt, listFes.get(k));
+                        obj.put("Name", listFes.get(k));
                         if (m.size() != 0) {
-                            obj.put("Time" + cnt, m.get(m.size() - 1));
+                            obj.put("Time", m.get(m.size() - 1));
                         } else {
-                            obj.put("Time" + cnt, null);
+                            obj.put("Time", null);
                         }
-                        obj.put("id"+cnt, "Cultural Festival" + qty);
-                        obj.put("first time"+cnt, null);
-                        obj.put("related Character"+cnt, null);
-                        obj.put("summary"+cnt, null);
-
-                        cnt++;
+                        obj.put("Location", location);
+                        obj.put("id", "Cultural Festival" + qty);
+                        obj.put("first time", null);
+                        obj.put("related Character", null);
+                        obj.put("summary", null);
+                        arr.add(obj);
+//                        cnt++;
                     }
-                    arr.add(obj);
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
