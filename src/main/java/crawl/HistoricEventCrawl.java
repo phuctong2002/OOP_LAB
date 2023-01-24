@@ -16,11 +16,11 @@ import java.util.List;
 public class HistoricEventCrawl {
     private final String fileData = "data/HistoricEvent.json";
     private String source;
-    private static int qty = 0;
-    private static String time;
-    private static String name;
-    private static List<String> relatedInformations = new ArrayList<>();
-    private static String summary;
+    private int qty = 0;
+    private String time;
+    private String name;
+    private List<String> relatedInformation = new ArrayList<>();
+    private String summary;
 
 
     public HistoricEventCrawl(String source) {
@@ -43,7 +43,7 @@ public class HistoricEventCrawl {
                         Elements dd = dl.select("dd");
                         arr.add(getHistoricEvent(dd));
                     } else {
-                        relatedInformations = getRelatedInformation(element);
+                        relatedInformation = getRelatedInformation(element);
                         summary = getSummary(element);
                         arr.add(getHistoricEvent());
                     }
@@ -99,7 +99,7 @@ public class HistoricEventCrawl {
         obj.put("id", "Historic Event " + qty);
         obj.put("History Event", name);
         obj.put("Time", time);
-        obj.put("Related Information", relatedInformations);
+        obj.put("Related Information", relatedInformation);
         obj.put("Summary", summary);
         System.out.println(obj);
         return obj;
@@ -111,7 +111,7 @@ public class HistoricEventCrawl {
         for (Element element : elements) {
             time = getTime(element) + " năm " + time;
             name = getName(element);
-            relatedInformations = getRelatedInformation(element);
+            relatedInformation = getRelatedInformation(element);
             summary = getSummary(element);
             jsonArray.add(getHistoricEvent());
         }
