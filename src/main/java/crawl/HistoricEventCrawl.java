@@ -15,6 +15,7 @@ import java.util.List;
 
 public class HistoricEventCrawl {
     private final String fileData = "data/HistoricEvent.json";
+    JSONArray arr = new JSONArray();
     private String source;
     private int qty = 0;
     private String time;
@@ -29,7 +30,6 @@ public class HistoricEventCrawl {
 
     public void getData() {
         List<String> url = ListURL.getURL(source);
-        JSONArray arr = new JSONArray();
         for (int i = 0; i < url.size(); ++i) {
             try {
                 Document document = Jsoup.connect(url.get(i)).get();
@@ -41,7 +41,8 @@ public class HistoricEventCrawl {
                     if (name.equals(time)) {
                         Element dl = element.nextElementSibling();
                         Elements dd = dl.select("dd");
-                        arr.add(getHistoricEvent(dd));
+                        getListHistoricEvent(dd);
+
                     } else {
                         relatedInformation = getRelatedInformation(element);
                         summary = getSummary(element);
@@ -54,6 +55,7 @@ public class HistoricEventCrawl {
             }
         }
         JsonHandler.writeJsonFile(arr, fileData);
+//        System.out.println(arr.toJSONString());
     }
 
     private List<String> getRelatedInformation(Element element) {
@@ -101,21 +103,18 @@ public class HistoricEventCrawl {
         obj.put("Time", time);
         obj.put("Related Information", relatedInformation);
         obj.put("Summary", summary);
-        System.out.println(obj);
+//        System.out.println(obj);
         return obj;
     }
 
 
-    public JSONArray getHistoricEvent(Elements elements) {
-        JSONArray jsonArray = new JSONArray();
+    public void getListHistoricEvent(Elements elements) {
         for (Element element : elements) {
             time = getTime(element) + " năm " + time;
             name = getName(element);
             relatedInformation = getRelatedInformation(element);
             summary = getSummary(element);
-            jsonArray.add(getHistoricEvent());
+            arr.add(getHistoricEvent());
         }
-        return jsonArray;
     }
-
 }
